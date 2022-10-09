@@ -1,0 +1,114 @@
+.view-table{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #cfd5ea;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  background-color: #4472c4;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #e9ebf5;
+}
+button {
+  background-color: #4472c4; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 23px;
+  color:yellow;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.input-field-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input[type=text] {
+  width: 315px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(156, 156, 252);
+}
+.marginTOP{
+  margin-top: -52vh;
+
+}
+.inputpercentage{
+  width: 100px !important;
+  padding: 7px 41px !important;
+  margin: 0px 0 !important;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(156, 156, 252);
+}
+.buttonSave {
+  background-color: #4472c4; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 42px;
+  color:yellow;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonCancel {
+  background-color: #ffffff; 
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 42px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  border-color: rgb(156, 156, 252);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bottom{
+  bottom:0;
+margin-top: 100px
+}
+select {
+  width: 315px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(156, 156, 252);
+}
+text {
+  display: none !important;
+}
+rect{
+  display: none !important;
+}
+.auto-shape-rendering{
+  /* display: none !important; */
+  /* visibility: hidden */
+}
